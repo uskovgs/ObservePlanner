@@ -22,7 +22,8 @@ ui <- fluidPage(
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
-      tags$div(htmlOutput("current_time"), style="font-family:'Courier',monospace"),
+      tags$div(htmlOutput("current_time"), style="font-family:'Courier',monospace;
+                                                  font-size: 20px"),
       hr(),
       selectInput("observatory", 
                   label = "Choose observatory:", 
